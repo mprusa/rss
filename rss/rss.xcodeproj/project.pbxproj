@@ -474,6 +474,7 @@
 				5BB3F66F1677E941009B2743 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5BB3F6701677E941009B2743 /* Build configuration list for PBXNativeTarget "rssTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +483,7 @@
 				5BB3F6721677E941009B2743 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
