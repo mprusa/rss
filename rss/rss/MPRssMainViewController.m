@@ -7,12 +7,14 @@
 //
 
 #import "MPRssMainViewController.h"
+#import "MPRssAppDelegate.h"
 
 @interface MPRssMainViewController ()
 
 @end
 
 @implementation MPRssMainViewController
+@synthesize label;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -35,4 +37,12 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)amIiPhone5:(id)sender
+{
+    if(IS_IPHONE_5) {
+        [[self label] setText:@"This is iPhone 5."];
+    } else {
+        [[self label] setText:@"This is not iPhone 5!"];
+    }
+}
 @end

@@ -10,4 +10,8 @@
 
 @interface MPRssMainViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *label;
+
+- (IBAction)amIiPhone5:(id)sender;
+
 @end
